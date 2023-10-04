@@ -5,7 +5,7 @@ import { CurrencyContext } from "../context/CurrencyContext";
 const AmountInput = () => {
   const { initialAmount, setInitialAmount } = useContext(CurrencyContext);
   const handleAmountChange = (e) => {
-    setInitialAmount(e.target.value);
+    setInitialAmount(e);
   };
   return (
     <div className="">
